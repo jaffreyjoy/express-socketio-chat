@@ -11,7 +11,7 @@ io.on('connection', function (socket) {
     });
 });
 
-server.listen(process.env.PORT || 8000,'localhost', function () {
+server.listen(9015,'express-socketio-chat.herokuapp.com', function () {
     console.log(server.address());
     console.log('Express server listening on ' + server.address().port);
 });
