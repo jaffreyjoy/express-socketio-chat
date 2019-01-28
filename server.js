@@ -12,7 +12,7 @@ io.on('connection', function (socket) {
     });
 });
 
-server.listen(process.argv[2], 'express-socketio-chat.herokuapp.com', function () {
+server.listen(process.argv[2], function () {
     console.log(server.address());
     console.log('Express server listening on ' + server.address().port);
 });
