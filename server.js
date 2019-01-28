@@ -1,3 +1,4 @@
+const process = require('process');
 const express = require('express');
 const app = express();
 const server = require('http').Server(app);
@@ -11,7 +12,7 @@ io.on('connection', function (socket) {
     });
 });
 
-server.listen(process.env.$PORT || 8000, 'express-socketio-chat.herokuapp.com', function () {
+server.listen(process.argv[2], 'express-socketio-chat.herokuapp.com', function () {
     console.log(server.address());
     console.log('Express server listening on ' + server.address().port);
 });
