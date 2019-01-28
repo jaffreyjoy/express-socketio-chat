@@ -1,5 +1,5 @@
 var ip = 'express-socketio-chat.herokuapp.com';
-var socket = io.connect(`${ip}:9015`);
+var socket = io.connect(ip);
 
 name = prompt('Enter your name');
 
