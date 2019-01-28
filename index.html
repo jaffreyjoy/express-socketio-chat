@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <script src="socket.io.js"></script>
+    <style>
+        #messagesArea{
+            margin-top:5vh;
+            margin-bottom:5vh;
+            margin-right:15vh;
+            margin-left:15vh;
+            width:50%;
+            height:100vh;
+            border:1px solid grey
+        }
+        #messageBox {
+            margin-left:15vh;
+            width:40%;
+            height: 5vh;
+        }
+        #sendButton {
+            width:10%;
+            height: 6vh;
+            background: #fff ;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input id="messageBox" type="text">
+        <button id="sendButton">🚀</button>
+    </div>
+    <div id="messagesArea">
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
