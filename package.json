@@ -1,6 +1,9 @@
 {
-  "name": "node",
+  "name": "express-socketio-chat>node",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.12.0"
+  },
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -10,8 +13,8 @@
     "type": "git",
     "url": "yes"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jaffrey Joy",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
     "socket.io": "^2.2.0"
