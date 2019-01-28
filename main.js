@@ -1,4 +1,4 @@
-var ip = 'express-socketio-chat.herokuapp.com';
+var ip = 'localhost:8000';
 var socket = io.connect(ip);
 
 name = prompt('Enter your name');
